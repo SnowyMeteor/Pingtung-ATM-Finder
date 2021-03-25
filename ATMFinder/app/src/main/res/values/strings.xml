@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pingtung City ATM Finder</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="Sort">
+        <item>請選擇類別...</item>
+        <item>商業銀行</item>
+        <item>郵局、農會</item>
+    </string-array>
+</resources>

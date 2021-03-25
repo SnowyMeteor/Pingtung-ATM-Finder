@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#DDDDDD">
+    <!--ripple中的color為點擊時的顏色-->
+
+    <!--基本設定-->
+    <item android:state_pressed="true" android:drawable="@drawable/Rocket">
+        <shape>
+            <corners android:radius="5dip"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="false" android:drawable="@drawable/Rocket">
+        <shape>
+            <corners android:radius="5dip"/>
+        </shape>
+    </item>
+</ripple>
+
